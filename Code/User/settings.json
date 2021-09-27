@@ -1,0 +1,92 @@
+{
+    "code-runner.clearPreviousOutput": true,
+    "C_Cpp.updateChannel": "Insiders",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "code-runner.runInTerminal": true,
+    "workbench.statusBar.visible": true,
+    "editor.wordWrap": "on",
+    "workbench.iconTheme": "material-icon-theme",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "code-runner.saveFileBeforeRun": true,
+    "files.autoSave": "afterDelay",
+    "emmet.showSuggestionsAsSnippets": true,
+    "prettier.useTabs": true,
+    "explorer.confirmDelete": false,
+    "C_Cpp.default.compilerPath": "C:\\Program Files\\mingw-w64\\mingw64\\bin\\gcc.exe",
+    "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.showOutputWindow": false,
+    "nxConsole.enableTelemetry": false,
+    "angular.experimental-ivy": true,
+    "explorer.confirmDragAndDrop": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "cph.general.firstTime": false,
+    "liveServer.settings.donotVerifyTags": true,
+    "emmet.excludeLanguages": [
+
+        "markdown"
+    ],
+    "emmet.includeLanguages": {
+        "ejs": "html"
+    },
+    "files.associations": {
+        "*.ejs": "html"
+    },
+    "explorer.compactFolders": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "terminal.integrated.tabs.enabled": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "todohighlight.isEnable": true,
+    "todohighlight.keywords": [
+        {
+            "text": "WARN:",
+            "color": "black",
+            "backgroundColor": "red"
+        },
+        {
+            "text": "CASE:",
+            "color": "white",
+            "backgroundColor": "#41B883"
+        }
+    ],
+    "editor.tabSize": 2,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "terminal.integrated.automationShell.osx": "",
+    "security.workspace.trust.untrustedFiles": "open",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "settingsSync.ignoredExtensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "juanblanco.solidity"
+    ],
+    "[markdown]": {
+    
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": false
+    },
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.colorTheme": "Community Material Theme Ocean",
+    "window.zoomLevel": 1,
+    "todohighlight.defaultStyle": {
+    
+    }
+}
