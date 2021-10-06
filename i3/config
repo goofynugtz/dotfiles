@@ -5,6 +5,7 @@
 # maim: ```sudo apt install maim```
 # xclip ```sudo apt install xclip```
 # bumblebee-status 
+# numlockx
 
 # i3 configs
 
@@ -152,8 +153,8 @@ exec_always --no-startup-id picom
 exec --no-startup-id .config/i3-alternating-layout/alternating_layouts.py
 
 ## Screenshots
-bindsym Print exec --no-startup-id maim "/home/$USER/Pictures/$(date)"
-bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "/home/$USER/Pictures/$(date)"
+bindsym Print exec --no-startup-id maim "/home/$USER/Pictures/$(date).png"
+bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "/home/$USER/Pictures/$(date).png"
 bindsym Shift+Print exec --no-startup-id maim --select "/home/$USER/Pictures/$(date)"
 
 ## Clipboard Screenshots
@@ -212,7 +213,7 @@ bindsym $mod+e exec nautilus
 # Startup
 exec_always --no-startup-id feh --bg-scale ~/Pictures/wallpaper.jpg
 exec --no-startup-id firefox
-exec --no-startup-id code ./.config/
+exec --no-startup-id code
 exec --no-startup-id kitty
 
 exec --no-startup-id .config/i3-alternating-layout/alternating_layouts.py
@@ -220,12 +221,12 @@ exec --no-startup-id .config/i3-alternating-layout/alternating_layouts.py
 bindsym $mod+Tab workspace next
 bindsym $mod+Shift+Tab workspace prev
 
-bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
+# bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
 
 # Start Rofi
 bindsym $mod+space exec --no-startup-id rofi -show run -lines 3 -font "SF Pro Text 18"
 
-exec_always --no-startup-id numlockx on
+exec_always --no-startup-id numlockx off
 
 
 # Idk what it does
